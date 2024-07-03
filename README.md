@@ -14,6 +14,7 @@ In addition, the Laplacian filter was applied to the output using the Sobel filt
 
 ![image](https://github.com/Yeongjae-Kong/ComputerVision_pj/assets/67358433/3a3277ee-1d20-4153-b0de-88270529de52)
 
+--------
 
 ### - Project 2 : Hand-written numbers classification
 
@@ -30,6 +31,8 @@ First, the Gaussian Bayes Classifier was used as the first method for hand-writt
 Using the above methods, the Bayes classifier was able to have 85% of the accumulation. In particular, the accumulation was remarkably high in data augmentation including rotational transformation. Adding random distortions and including them in the learning dataset could also increase the accumulation. In the case of various parameters, various numbers were substituted and empirically tuned to output optimal results.
 
 In the second method, CNN was applied based on the sample code. The epoch was set to 30, the batch size was set to 8, and the learning rate was set to 0.001. For loss, a commonly used Adam optimizer was used, similar to the commonly used crossover loss in multi-class classification problems. Hyperparameters set as suggested in the existing sample code of pdf, and among them, by raising the epoch to 30, the acuity could be increased to 100%.
+
+--------
 
 ### - Project 3 : Camera Calibration
 

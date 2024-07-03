@@ -12,6 +12,9 @@ In the case of the second Cars2_noise, the number of the license plate was not c
 In the case of the last clock_noise, similar to Cars1, we first tried to remove Gaussian noise and soften the image, and we tried to remove residual salt-and-pepper noise through the Median filter. And we tried to improve the overall contrast of the image and increase the visibility of the image through histogram equalization.
 In addition, the Laplacian filter was applied to the output using the Sobel filter for edge enhancement, and the Laplacian was repeatedly used once again for clearer results. In addition, for clarity correction, the max value was selected among the results of Sobel and Laplacian, and binarization was performed.
 
+![image](https://github.com/Yeongjae-Kong/ComputerVision_pj/assets/67358433/3a3277ee-1d20-4153-b0de-88270529de52)
+
+
 ### - Project 2 : Hand-written numbers classification
 
 #### * Ideas - Bayes Classifier, CNN
